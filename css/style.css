@@ -1,0 +1,40 @@
+/* mengatur jumbotron seperti padding dan backgournd */
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #373737;
+}
+/* mengatur backgorund id gallery */
+#gallery {
+  background-color: #373737;
+}
+/* mengatur section class */
+section {
+  padding-top: 5rem;
+}
+/* mengatur baigan about */
+#about {
+  background-color: #373737;
+}
+/* mengatur bagian contact */
+#contact {
+  background-color: #373737;
+}
+/* mengatur id name  */
+#name {
+  background-color: #373737;
+}
+/* mengatur id email */
+#email {
+  background-color: #373737;
+}
+/* mengatur id pesan */
+#pesan {
+  background-color: #373737;
+}
+/* mengatur class card */
+.card {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  color: white;
+  background-color: #373737;
+}

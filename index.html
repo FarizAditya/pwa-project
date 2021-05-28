@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags untuk membuat website menjadi responsive dengan tambahan meta name viewport-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS, link Framework untuk css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <!-- My css Untuk menghubungkan html dengan css-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>My Portfolio | Fariz</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <!-- untuk navbar ini pada class nav berisi 
+    nav-expand-lg untuk untuk responsive dan skema warna
+    navbar-dark untuk membuat navbar menjadi gelap dan sekaligus membuat text pada navbar otomatis berubah menjadi putih
+    class container untuk membuat wadah 
+    dibawah terdapat banyak class yang terdapat button dengan content didalamnya,
+    div dengan class collapse beserta idnya dengan navlist seperti home about gallery dan contact-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #474747">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fariz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="api.html">API</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <!-- Jumbotron -->
+    <!-- Jumbotron adalah satu element yang dibuat untuk tujuan 
+      membuat semacam pengumuman,konten khusus atau informasi tentang halaman website.
+      didalamnya terdapat element section yang digunakan untuk mengelompokan konten dan menampilkan diawal pertama kali website ini -->
+    <section class="jumbotron text-center text-white">
+      <img src="images/logo.png" alt="fariz" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Fariz</h1>
+      <p class="lead">Collage | Gamers</p>
+      <p class="text-center mb-3">
+        Perkenalkan aku biasa dipanggil fariz aku adalah seorang web beginner <br />
+        ini adalah website porject dengan menggunakan HTML dan CSS dibantu framwork BOOTSTRAP 5
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#a8a7a7a"
+          fill-opacity="1"
+          d="M0,192L0,192L62.6,192L62.6,224L125.2,224L125.2,192L187.8,192L187.8,128L250.4,128L250.4,96L313,96L313,160L375.7,160L375.7,288L438.3,288L438.3,128L500.9,128L500.9,96L563.5,96L563.5,128L626.1,128L626.1,64L688.7,64L688.7,224L751.3,224L751.3,256L813.9,256L813.9,224L876.5,224L876.5,32L939.1,32L939.1,224L1001.7,224L1001.7,256L1064.3,256L1064.3,192L1127,192L1127,288L1189.6,288L1189.6,128L1252.2,128L1252.2,192L1314.8,192L1314.8,256L1377.4,256L1377.4,96L1440,96L1440,320L1377.4,320L1377.4,320L1314.8,320L1314.8,320L1252.2,320L1252.2,320L1189.6,320L1189.6,320L1127,320L1127,320L1064.3,320L1064.3,320L1001.7,320L1001.7,320L939.1,320L939.1,320L876.5,320L876.5,320L813.9,320L813.9,320L751.3,320L751.3,320L688.7,320L688.7,320L626.1,320L626.1,320L563.5,320L563.5,320L500.9,320L500.9,320L438.3,320L438.3,320L375.7,320L375.7,320L313,320L313,320L250.4,320L250.4,320L187.8,320L187.8,320L125.2,320L125.2,320L62.6,320L62.6,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir jumbotron -->
+
+    <!-- About -->
+    <!-- didalam about terdapat element" seperti section, class seperti container,row col justify content  -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3 text-white">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center text-white">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est distinctio quod deleniti vero debitis dolores ea magni a blanditiis?</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat enim nulla, molestiae voluptatem dolorem atque consectetur ducimus nemo quod laudantium corporis voluptas aspernatur beatae voluptatum!</p>
+          </div>
+        </div>
+      </div>
+      <!-- untuk membuat gelombang -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#373737"
+          fill-opacity="1"
+          d="M0,192L0,32L62.6,32L62.6,256L125.2,256L125.2,256L187.8,256L187.8,288L250.4,288L250.4,160L313,160L313,96L375.7,96L375.7,96L438.3,96L438.3,128L500.9,128L500.9,160L563.5,160L563.5,160L626.1,160L626.1,160L688.7,160L688.7,128L751.3,128L751.3,96L813.9,96L813.9,288L876.5,288L876.5,192L939.1,192L939.1,256L1001.7,256L1001.7,288L1064.3,288L1064.3,224L1127,224L1127,160L1189.6,160L1189.6,128L1252.2,128L1252.2,32L1314.8,32L1314.8,160L1377.4,160L1377.4,96L1440,96L1440,320L1377.4,320L1377.4,320L1314.8,320L1314.8,320L1252.2,320L1252.2,320L1189.6,320L1189.6,320L1127,320L1127,320L1064.3,320L1064.3,320L1001.7,320L1001.7,320L939.1,320L939.1,320L876.5,320L876.5,320L813.9,320L813.9,320L751.3,320L751.3,320L688.7,320L688.7,320L626.1,320L626.1,320L563.5,320L563.5,320L500.9,320L500.9,320L438.3,320L438.3,320L375.7,320L375.7,320L313,320L313,320L250.4,320L250.4,320L187.8,320L187.8,320L125.2,320L125.2,320L62.6,320L62.6,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir About -->
+
+    <!-- Gallery -->
+    <!-- membuat bagian gallery dalamnya terdapat card yang isinya img dan text -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3 text-white">
+          <div class="col">
+            <h2>My Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="images/photo1.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="images/photo2.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="images/photo3.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="images/photo4.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="images/photo5.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#a8a7a7a"
+          fill-opacity="1"
+          d="M0,128L0,160L62.6,160L62.6,224L125.2,224L125.2,64L187.8,64L187.8,160L250.4,160L250.4,128L313,128L313,192L375.7,192L375.7,0L438.3,0L438.3,288L500.9,288L500.9,32L563.5,32L563.5,160L626.1,160L626.1,160L688.7,160L688.7,96L751.3,96L751.3,192L813.9,192L813.9,32L876.5,32L876.5,256L939.1,256L939.1,64L1001.7,64L1001.7,0L1064.3,0L1064.3,96L1127,96L1127,32L1189.6,32L1189.6,32L1252.2,32L1252.2,224L1314.8,224L1314.8,64L1377.4,64L1377.4,224L1440,224L1440,320L1377.4,320L1377.4,320L1314.8,320L1314.8,320L1252.2,320L1252.2,320L1189.6,320L1189.6,320L1127,320L1127,320L1064.3,320L1064.3,320L1001.7,320L1001.7,320L939.1,320L939.1,320L876.5,320L876.5,320L813.9,320L813.9,320L751.3,320L751.3,320L688.7,320L688.7,320L626.1,320L626.1,320L563.5,320L563.5,320L500.9,320L500.9,320L438.3,320L438.3,320L375.7,320L375.7,320L313,320L313,320L250.4,320L250.4,320L187.8,320L187.8,320L125.2,320L125.2,320L62.6,320L62.6,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir Gallery -->
+
+    <!-- Contact -->
+    <!-- membuat bagian contact seperti class nama,email,pesan dan dan submit -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3 text-white">
+          <div class="col">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-white">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email </label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#474747"
+          fill-opacity="1"
+          d="M0,32L0,0L62.6,0L62.6,256L125.2,256L125.2,96L187.8,96L187.8,288L250.4,288L250.4,128L313,128L313,160L375.7,160L375.7,224L438.3,224L438.3,288L500.9,288L500.9,64L563.5,64L563.5,256L626.1,256L626.1,128L688.7,128L688.7,192L751.3,192L751.3,32L813.9,32L813.9,0L876.5,0L876.5,64L939.1,64L939.1,64L1001.7,64L1001.7,224L1064.3,224L1064.3,256L1127,256L1127,160L1189.6,160L1189.6,64L1252.2,64L1252.2,96L1314.8,96L1314.8,96L1377.4,96L1377.4,192L1440,192L1440,320L1377.4,320L1377.4,320L1314.8,320L1314.8,320L1252.2,320L1252.2,320L1189.6,320L1189.6,320L1127,320L1127,320L1064.3,320L1064.3,320L1001.7,320L1001.7,320L939.1,320L939.1,320L876.5,320L876.5,320L813.9,320L813.9,320L751.3,320L751.3,320L688.7,320L688.7,320L626.1,320L626.1,320L563.5,320L563.5,320L500.9,320L500.9,320L438.3,320L438.3,320L375.7,320L375.7,320L313,320L313,320L250.4,320L250.4,320L187.8,320L187.8,320L125.2,320L125.2,320L62.6,320L62.6,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <!-- membuat bagian footer seperti link,background color icon bootstrap -->
+    <footer class="text-white text-center p-3" style="background-color: #474747">
+      <p>Created with <i class="bi bi-heart-fill"></i> by <a href="https://www.instagram.com/_kiyozumi" class="text-white fw-bold">Fariz</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

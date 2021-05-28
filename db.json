@@ -1,24 +1,19 @@
 {
-"gallery":[
-{"id":1,"name":"Domenico","oriented":"potrait"},
-{"id":2,"name":"Cynthy","oriented":"potrait"},
-{"id":3,"name":"Trace","oriented":"landscape"},
-{"id":4,"name":"Hale","oriented":"potrait"},
-{"id":5,"name":"Dame","oriented":"landscape"},
-{"id":6,"name":"Chandra","oriented":"landscape"},
-{"id":7,"name":"Dorree","oriented":"landscape"},
-{"id":8,"name":"Ernest","oriented":"landscape"},
-{"id":9,"name":"Felicio","oriented":"potrait"},
-{"id":10,"name":"Druci","oriented":"landscape"},
-{"id":11,"name":"Jeanelle","oriented":"potrait"},
-{"id":12,"name":"Lurlene","oriented":"landscape"},
-{"id":13,"name":"Stanwood","oriented":"potrait"},
-{"id":14,"name":"Barthel","oriented":"potrait"},
-{"id":15,"name":"Madelina","oriented":"potrait"},
-{"id":16,"name":"Kristyn","oriented":"landscape"},
-{"id":17,"name":"Doralynne","oriented":"landscape"},
-{"id":18,"name":"Abbie","oriented":"potrait"},
-{"id":19,"name":"Patrice","oriented":"landscape"},
-{"id":20,"name":"Sibbie","oriented":"landscape"}
+"univ":[
+{"id":1,"name":"Marchelle","job":"Ecole Nationale Supérieure de l'Aéronautique et de l'Espace"},
+{"id":2,"name":"Desiree","job":"Adama Science and Technology University"},
+{"id":3,"name":"Andonis","job":"Seoul Women's University"},
+{"id":4,"name":"Donella","job":"Western Mindanao State University"},
+{"id":5,"name":"Zorine","job":"Centro Regional Universitário de Espiríto Santo do Pinhal"},
+{"id":6,"name":"Ines","job":"Indian School of Business Management and Administration"},
+{"id":7,"name":"Olympie","job":"Kahramanmaras Sütcü Imam University"},
+{"id":8,"name":"Mela","job":"International University"},
+{"id":9,"name":"Charmain","job":"University of Texas Medical Branch Galveston"},
+{"id":10,"name":"Simona","job":"Bennington College"},
+{"id":11,"name":"Danit","job":"Ecole Nationale Supérieure de Chimie de Montpellier"},
+{"id":12,"name":"Pepillo","job":"Southern Adventist University"},
+{"id":13,"name":"Iorgos","job":"Universidad Señor de Sipán"},
+{"id":14,"name":"Trixi","job":"Mount Senario College"},
+{"id":15,"name":"Katti","job":"PTPL College"}
 ]
 }
